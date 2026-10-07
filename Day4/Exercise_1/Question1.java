@@ -1,22 +1,33 @@
+//..............................................Enter 3 numbers from the user & make a function to print their average. 
 import java.util.*;
 
 class Question1 {
+
+    // Function to calculate average
+    static int calculateAverage(int num1, int num2, int num3) {
+        int avg = (num1 + num2 + num3) / 3;
+        return avg;
+    }
+
     public static void main(String[] args) {
-        
-        // Take the input of the user
+
+        // Take input from user
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the First Number: ");
-        int Num1 = sc.nextInt();
+        int num1 = sc.nextInt();
 
         System.out.print("Enter the Second Number: ");
-        int Num2 = sc.nextInt();
+        int num2 = sc.nextInt();
 
         System.out.print("Enter the Third Number: ");
-        int Num3 = sc.nextInt();
+        int num3 = sc.nextInt();
 
-        int avg = (Num1 + Num2 + Num3) / 3;
+        // Call the function
+        int avg = calculateAverage(num1, num2, num3);
 
-        System.out.print("Avg of the Numbers is: " + avg);
+        System.out.println("Avg of the Numbers is: " + avg);
+
+        sc.close();
     }
 }
