@@ -1,7 +1,7 @@
 
     import java.util.*;
     class  Question5{
-        static int Fibonacci(int n)
+        static  int Fibonacci(int n) 
         {
             if(n==0 || n==1)
             {
