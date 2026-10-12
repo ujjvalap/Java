@@ -1,3 +1,5 @@
+
+
 // class App {
 //     public static void main(String[] args) {
 
@@ -38,9 +40,12 @@
 
 
 
-class App {
-    public static void main(String[] args) {
-        Student obj =new Student("Ujjval");
-        obj.Displayname();
-    }
-}
+// class App {
+//     public static void main(String[] args) {
+//         Student obj =new Student("Ujjval");
+//         obj.Displayname();
+//     }
+// }
+
+
+
