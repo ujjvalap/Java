@@ -19,6 +19,8 @@ class Statickey{
     {
         Student obj=new Student("Ujjval");
         obj.Displayname();
+       
+        System.out.println(Student.college);
     }
 }
 
